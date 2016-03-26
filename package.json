@@ -1,0 +1,21 @@
+{
+  "name": "edlio-chats",
+  "version": "1.0.0",
+  "description": "A simple chatroom when hipchat is down",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha"
+  },
+  "keywords": [
+    "chat",
+    "edlio"
+  ],
+  "author": "Eric Liao <eric@edlio.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.4.10",
+    "socket.io": "^1.4.5"
+  }
+}
